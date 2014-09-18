@@ -1,0 +1,74 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{multicol}
+\usepackage{enumitem}
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\Large\bf Daniel Kolbman}
+ \moveleft.5\hoffset\centerline{(267) 261-4552 - dan@kolbman.com} \moveleft.5\hoffset\centerline{dankolbman.com - github.com/dankolbman}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+\address{\bf  PRESENT ADDRESS\\220 John St.\\Apt. 13303\\Rochester, NY 14623}
+\address{\bf PERMANENT ADDRESS \\ P.O. Box 78 \\  Wycombe, PA 18980}
+
+\begin{resume}
+\section{EDUCATION}
+  {\sl Bachelor of Science,} Physics \\
+  Math Minor
+  Rochester Institute of Technology,	\\
+  Rochester, NY			\\
+  Expected: May 2015
+
+\section{RESEARCH\\EXPERIENCE}
+
+  {\sl Cancer Cell Mechanics} \hfill  Summer, 2014- \\
+  {\sl Adviser: Moumita Das}\\                
+
+  {\sl Molecular Simulation} \hfill   Fall, 2013-Spring, 2014 \\
+  {\sl Adviser: George Thurston}\\                
+  Re-implemented old molecular models from Mathematica to Fortran.
+  Used Metropolis-Monte Carlo methods and periodic boundaries to study properties
+  in large thermodynamic systems.
+  Worked closely with physics and mathematics research faculty to refine
+  new and pre-existing models and methods.
+
+\section{EXPERIENCE}
+
+  {\sl Systems Administrator} \hfill            Fall, 2012- \\
+  {\sl Chester F. Carlson Center for Imaging Science, RIT}\\
+   Responsible for the maintenance of faculty and lab computers
+   at the Center for Imaging Science. Update and configure software
+   required for Imaging Science courses and provide assistance to
+   professors with software and technical problems.
+
+  {\sl Teaching Assistant} \hfill            Fall, 2012-Spring, 2013 \\
+  {\sl School of Physics and Astronomy, College of Science, RIT}\\
+  Helped students in class with problem solving activities and labs.
+  Hold office hours to assist students with homework and lab reports.
+  Create practice exams and hold review sessions before exams.
+
+\section{PROJECTS}
+
+	 {\sl MassPlay} \hfill            Winter, 2014- \\
+	 Conceived at McHacks 2014, MassPlay is inspired by the recent Twitch Plays Pokemon trend
+	 and allows users to play a single Game Boy game with tens to thousands of other players
+	 simultaneously.         
+                 
+
+\section{SKILLS}
+\textbf{Programming Languages:} Python, Julia, C, MatLab, Java, Fortran, HTML/CSS \\
+\textbf{Software:} vim, git, mercurial, Eclipse, Microsoft Office, Adobe Photoshop \\
+\textbf{Operating Systems:} GNU/Linux, Mac OSX, Windows
+ 
+
+                 
+            
+                 
+
+\end{resume}
+\end{document}
