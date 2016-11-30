@@ -6,7 +6,7 @@
 \usepackage{enumitem}
 \setlength{\textwidth}{5.1in} % set width of text portion
 
-\renewcommand{\baselinestretch}{0.75}\normalsize
+\renewcommand{\baselinestretch}{0.76}\normalsize
 
 \begin{document}
 %\addtolength{\topmargin}{-0.5in}
@@ -16,30 +16,65 @@
 % Draw a horizontal line the whole width of resume:
  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
 % address begins here
-% \address{\bf ADDRESS \\ P.O. Box 78 \\  Wycombe, PA 18980}
+% \address{\bf ADDRESS \\ }
 
 \begin{resume}
 
-%%%%% WORK EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% EDUCATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{WORK\\EXPERIENCE}
+\section{EDUCATION}
+  {\sl Bachelor of Science,} Physics, Mathematics Minor \\
+  Rochester Institute of Technology, 2015	\\
+
+%%%%% PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROFESSIONAL\\EXPERIENCE}
 
   {\sl Software Engineer} \hfill            Spring 2016- \\
   {\sl University of Chicago Center for Data Intensive Science}\\
   \begin{itemize}
-    \item Worked on a small team of developers to create the Genomic Data Commons, an NCI funded project to analyze and distribute cancer data.
-    \item Imported and managed petabyte scale, cancer genomics data into an in-house graph data model implemented in PostgreSQL and JSONB. 
-    \item Developed infrastructure and operations tooling for secrets distribution, containerization of services, and container orchestration.
+    \item Worked on a small team of developers in an agile environment to create the Genomic Data Commons.
+    \item Investigated, designed, developed, and deployed a distributed and scalable data visualization service for the Genomic Data Commons using Apache Spark and Elasticsearch.
+    \item Imported and managed petabyte-scale, cancer-genomics data in a highly-relational graph data model implemented in PostgreSQL.
+    \item Responsible for communicating and collaborating across teams to lay out development effort for significant data model and system design changes.
   \end{itemize}
 
-  {\sl Systems Administrator} \hfill            Fall, 2012-Spring, 2015 \\
-  {\sl Chester F. Carlson Center for Imaging Science, RIT}\\
+%  {\sl Systems Administrator} \hfill            Fall, 2012-Spring, 2015 \\
+%  {\sl Chester F. Carlson Center for Imaging Science, RIT}\\
+%  \begin{itemize}
+%    \item Responsible for the maintenance of faculty and lab computers
+%      at the Center for Imaging Science.
+%    \item Update and configure software required for Imaging Science courses
+%      and provide assistance to professors with software and technical problems.
+%  \end{itemize}
+
+%%%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECTS}
+  {\sl \textbf{More projects and contributions at github.com/dankolbman}}\\
+  {\sl Kaggle} \hfill            Winter, 2015- \\
   \begin{itemize}
-    \item Responsible for the maintenance of faculty and lab computers
-      at the Center for Imaging Science.
-    \item Update and configure software required for Imaging Science courses
-      and provide assistance to professors with software and technical problems.
+    \item Placed in the top 5\% in the Home Depot Product Search Relevance competition utilizing ensembles consisting of tree based, SVM, and neural network models and many NLP tasks for feature extraction and engineering such as word-2-vec, distance functions, stemming, lemmatizing, and others.
+    \item Placed top 14\% in the Prudential Life Insurance Assessment competition using a distributed grid search to optimize xgboost hyper-parameters.
+    \item Participated in the Bosch Production Line Performance competition with a focus on creating a pipeline that would allow rapid iteration on methods of feature engineering and model parameters.
   \end{itemize}
+  {\sl Travel Blog} \hfill            Spring, 2015-Summer, 2015 \\
+  \begin{itemize}
+    \item Created a blogging platform to log my travels in south-east Asia.
+    \item Created in python with the Flask web framework and PostgreSQL with
+      PostGIS to store location data.
+    \item Developed an Android companion application to track cell phone GPS data
+      and upload it to the Flask application through a REST API.
+  \end{itemize}
+      
+%  {\sl CleverTind} \hfill            Winter, 2014 \\
+%  \begin{itemize}
+%    \item Created a bot in ruby to interact with a popular dating service and hold
+%      conversations with users using a chatbot.
+%    \item Used OpenCV to apply facial recognition and construct composite faces and
+%      numpy and matplotlib for user analysis.
+%  \end{itemize}
+
 
 %%%%% RESEARCH EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -52,8 +87,7 @@
     \item Increased performance by 10-100 times over previous techniques by using
       Julia and OpenCL to create massively parallel, GPU simulations.
     \item Use OpenMPI for deployment on large, HPC clusters.
-    \item Performed statistical investigation of data using numpy and matplotlib
-      libraries for Python.
+    \item Performed statistical investigation of data using numpy, pandas, matplotlib, and seaborn libraries for Python.
   \end{itemize}
 
   {\sl Molecular Simulation of Proteins} \hfill   Fall, 2013-Spring, 2014 \\
@@ -65,36 +99,6 @@
   \end{itemize}
      
 
-%%%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{PROJECTS}
-  {\sl \textbf{More projects and contributions at github.com/dankolbman}}\\
-  {\sl Travel Blog} \hfill            Spring, 2015-Summer, 2015 \\
-  \begin{itemize}
-    \item A blogging platform created to log my travels in south-east Asia.
-    \item Created in python with the Flask web framework and PostgreSQL with
-      PostGIS to store location data.
-    \item Developed an Android companion application to track cell phone GPS data
-      and upload it to the Flask application through a REST API.
-  \end{itemize}
-      
-  {\sl CleverTind} \hfill            Winter, 2014 \\
-  \begin{itemize}
-    \item Created a bot in ruby to interact with a popular dating service and hold
-      conversations with users using a chatbot.
-    \item Used OpenCV to apply facial recognition and construct composite faces and
-      numpy and matplotlib for user analysis.
-  \end{itemize}
-
-
-
-
-
-%%%%% EDUCATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{EDUCATION}
-  {\sl Bachelor of Science,} Physics, Minor in Mathematics \\
-  Rochester Institute of Technology, 2015	\\
 
 %%%%% REFERENCES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
